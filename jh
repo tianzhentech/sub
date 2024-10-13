@@ -1,1 +1,14 @@
-socks5+ws://speedfox:VhNruRQcVp21eNQu@8.218.48.22:56983
+proxies:
+  - name: "SOCKS5 WS Proxy"
+    type: socks5
+    server: 8.218.48.22
+    port: 56983
+    username: "speedfox"
+    password: "VhNruRQcVp21eNQu"
+    tls: false
+    udp: true
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "8.218.48.22"
+
